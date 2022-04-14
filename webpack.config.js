@@ -21,7 +21,7 @@ Encore
  * Each entry will result in one JavaScript file (e.g. app.js)
  * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
  */
-.addEntry('app', './assets/app.js')
+.addEntry('app', './assets/js/app.js')
 
 // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
 .enableStimulusBridge('./assets/controllers.json')
@@ -57,13 +57,10 @@ Encore
     config.corejs = 3;
 })
 
-<<<<<<< HEAD
-    // enables Sass/SCSS support
-    .enableSassLoader()
-=======
+
 // enables Sass/SCSS support
 .enableSassLoader()
->>>>>>> beb3932b706b57cc70d8df19987a8cab6c526682
+
 
 // uncomment if you use TypeScript
 //.enableTypeScriptLoader()
