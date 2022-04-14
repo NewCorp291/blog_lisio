@@ -1,20 +1,103 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello HomeController!{% endblock %}
+{% block title %}Home!
+{% endblock %}
 
 {% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'D:/Newcorp/Autres/Lisio/blog_lisio/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'D:/Newcorp/Autres/Lisio/blog_lisio/templates/home/index.html.twig'|file_link(0) }}">templates/home/index.html.twig</a></code></li>
-    </ul>
-</div>
+	<article class="container mt-5 mb-5 d-flex justify-content-between col-xs-12">
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div class="etiquette text-center">
+					<h6>Titre de l'article du blog de lisio</h6>
+				</div>
+			</div>
+			<div class="bottom-article">
+				<div class="p-2">
+					<p class="ppp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit diam sit amet nisi lacinia lobortis. 
+						               Aliquam odio orci, fermentum sagittis fermentum ut, finibus quis urna. Mauris a sapien at neque pulvinar gravida.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit diam sit amet nisi lacinia lobortis. 
+						               Aliquam odio orci, fermentum sagittis fermentum ut, finibus quis urna. Mauris a sapien at neque pulvinar gravida.</p>
+				</div>
+
+				<div class="link-article mb-3 ps-2">
+					<a href="#">En savoir plus ></a>
+				</div>
+			</div>
+		</div>
+		{# ARTICLE #}
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div class="etiquette text-center">{# TEXT #}</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+		{# ARTICLE #}
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div
+					class="etiquette">{# TEXT #}
+				</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+	</article>
+	<article class="container mb-5 d-flex justify-content-between col-xs-12">
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div
+					class="etiquette">{# TEXT #}
+				</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+		{# ARTICLE #}
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div
+					class="etiquette">{# TEXT #}
+				</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+		{# ARTICLE #}
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div
+					class="etiquette">{# TEXT #}
+				</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+	</article>
+	<article class="container mb-5 d-flex justify-content-between col-xs-12">
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div
+					class="etiquette">{# TEXT #}
+				</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+		{# ARTICLE #}
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div
+					class="etiquette">{# TEXT #}
+				</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+		{# ARTICLE #}
+		<div class="container-article">
+			<div class="top-article fond_article">
+				<div
+					class="etiquette">{# TEXT #}
+				</div>
+			</div>
+			<div class="bottom-article"></div>
+		</div>
+	</article>
+
 {% endblock %}
